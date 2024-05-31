@@ -1,10 +1,10 @@
 package app;
 
 public class Employee {
-    String fullName;
-    String position;
-    String email;
-    String phone;
+   private String fullName;
+   private String position;
+   private String email;
+   private int phone;
     int age;
 
     public Employee(String fullName, String position, String email, String phone, int age) {
